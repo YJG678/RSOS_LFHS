@@ -1,0 +1,6 @@
+python 3.13.1
+numpy 2.4.4
+scipy 1.17.1
+matplotlib 3.10.9
+platform Windows-11-10.0.26200-SP0
+date 2026-10-04 17:06:13

@@ -1,0 +1,137 @@
+Section 4.5 verification report
+===============================
+
+[OK  ] 4.5.1   g(0) = g'(0) = 0                                     manuscript        holds   recomputed True           
+[OK  ] 4.5.1   corrector truncation 400->800 terms: change          manuscript    < 4.6e-11   recomputed 4.527e-11      
+[OK  ] Tab.1   spatial J=8: Eu                                      manuscript     8.601e-4   recomputed 0.000860143    
+[OK  ] Tab.1   spatial J=8: Ev                                      manuscript     4.227e-4   recomputed 0.000422699    
+[OK  ] Tab.1   spatial J=8: Eg                                      manuscript     1.744e-3   recomputed 0.00174359     
+[OK  ] Tab.1   spatial J=16: Eu                                     manuscript     2.154e-4   recomputed 0.000215418    
+[OK  ] Tab.1   spatial J=16: Ev                                     manuscript     1.058e-4   recomputed 0.000105817    
+[OK  ] Tab.1   spatial J=16: Eg                                     manuscript     4.303e-4   recomputed 0.000430302    
+[OK  ] Tab.1   spatial J=32: Eu                                     manuscript     5.388e-5   recomputed 5.38784e-05    
+[OK  ] Tab.1   spatial J=32: Ev                                     manuscript     2.646e-5   recomputed 2.6463e-05     
+[OK  ] Tab.1   spatial J=32: Eg                                     manuscript     1.072e-4   recomputed 0.000107221    
+[OK  ] Tab.1   spatial J=64: Eu                                     manuscript     1.347e-5   recomputed 1.34711e-05    
+[OK  ] Tab.1   spatial J=64: Ev                                     manuscript     6.616e-6   recomputed 6.61628e-06    
+[OK  ] Tab.1   spatial J=64: Eg                                     manuscript     2.678e-5   recomputed 2.67829e-05    
+[OK  ] Tab.1   spatial order Eu                                     manuscript        2.000   recomputed 1.99984        
+[OK  ] Tab.1   spatial order Ev                                     manuscript        2.000   recomputed 1.99988        
+[OK  ] Tab.1   spatial order Eg                                     manuscript        2.001   recomputed 2.0012         
+[OK  ] Tab.1   axial N=40: Eu                                       manuscript     1.588e-3   recomputed 0.00158809     
+[OK  ] Tab.1   axial N=40: Ev                                       manuscript     1.594e-3   recomputed 0.00159415     
+[OK  ] Tab.1   axial N=40: Eg                                       manuscript     5.834e-3   recomputed 0.00583378     
+[OK  ] Tab.1   axial N=80: Eu                                       manuscript     7.981e-4   recomputed 0.000798122    
+[OK  ] Tab.1   axial N=80: Ev                                       manuscript     8.036e-4   recomputed 0.000803646    
+[OK  ] Tab.1   axial N=80: Eg                                       manuscript     3.047e-3   recomputed 0.00304682     
+[OK  ] Tab.1   axial N=160: Eu                                      manuscript     4.001e-4   recomputed 0.000400089    
+[OK  ] Tab.1   axial N=160: Ev                                      manuscript     4.035e-4   recomputed 0.000403469    
+[OK  ] Tab.1   axial N=160: Eg                                      manuscript     1.560e-3   recomputed 0.00156049     
+[OK  ] Tab.1   axial N=320: Eu                                      manuscript     2.003e-4   recomputed 0.000200303    
+[OK  ] Tab.1   axial N=320: Ev                                      manuscript     2.021e-4   recomputed 0.000202146    
+[OK  ] Tab.1   axial N=320: Eg                                      manuscript     7.903e-4   recomputed 0.000790299    
+[OK  ] Tab.1   axial order Eu                                       manuscript        0.998   recomputed 0.998138       
+[OK  ] Tab.1   axial order Ev                                       manuscript        0.997   recomputed 0.997057       
+[OK  ] Tab.1   axial order Eg                                       manuscript        0.982   recomputed 0.98153        
+[OK  ] 4.5.1   direct 47-step calculation (J=15) vs powers          manuscript within 1e-11   recomputed 2.689e-14      
+[OK  ] 4.5.1   halving spatial-test step, J=8: field change         manuscript    < 2.6e-08   recomputed 2.543e-08      
+[OK  ] 4.5.1   halving spatial-test step, J=64: field change        manuscript      < 4e-10   recomputed 3.956e-10      
+[RNDF] 4.5.1   arbitrary steps: max cumulative defect in (4.5)      manuscript     2.17e-12   recomputed 1.259e-12      (round-off level; magnitude agrees)
+[OK  ] 4.5.1   computed-load inequality (4.6) at every step         manuscript        holds   recomputed True           
+[OK  ] 4.5.1   corrector inequality (4.7) at every step             manuscript        holds   recomputed True           
+[OK  ] Tab.2   eps=1/8: E0                                          manuscript     4.083e-3   recomputed 0.00408252     
+[OK  ] Tab.2   eps=1/8: Ep                                          manuscript     2.339e-4   recomputed 0.000233867    
+[OK  ] Tab.2   eps=1/8: E0fin                                       manuscript     4.214e-3   recomputed 0.00421421     
+[OK  ] Tab.2   eps=1/8: Epfin                                       manuscript     3.648e-4   recomputed 0.000364773    
+[OK  ] Tab.2   eps=1/8: dref_fl                                     manuscript     1.075e-7   recomputed 1.07516e-07    
+[EDGE] Tab.2   eps=1/8: dref_fin                                    manuscript     6.906e-8   recomputed 6.90553e-08    (.tex figure data 6.905479e-08 round to 6.905e-8: last digit not reproducible)
+[OK  ] Tab.2   eps=1/16: E0                                         manuscript     2.000e-3   recomputed 0.00199989     
+[OK  ] Tab.2   eps=1/16: Ep                                         manuscript     6.250e-5   recomputed 6.25039e-05    
+[OK  ] Tab.2   eps=1/16: E0fin                                      manuscript     2.034e-3   recomputed 0.00203429     
+[OK  ] Tab.2   eps=1/16: Epfin                                      manuscript     9.635e-5   recomputed 9.63479e-05    
+[OK  ] Tab.2   eps=1/16: dref_fl                                    manuscript     9.338e-8   recomputed 9.33763e-08    
+[OK  ] Tab.2   eps=1/16: dref_fin                                   manuscript     8.572e-8   recomputed 8.57172e-08    
+[OK  ] Tab.2   eps=1/32: E0                                         manuscript     9.877e-4   recomputed 0.000987689    
+[OK  ] Tab.2   eps=1/32: Ep                                         manuscript     1.615e-5   recomputed 1.61474e-05    
+[OK  ] Tab.2   eps=1/32: E0fin                                      manuscript     9.965e-4   recomputed 0.000996484    
+[OK  ] Tab.2   eps=1/32: Epfin                                      manuscript     2.474e-5   recomputed 2.47355e-05    
+[EDGE] Tab.2   eps=1/32: dref_fl                                    manuscript     9.181e-8   recomputed 9.1813e-08     (.tex figure data 9.181501e-08 round to 9.182e-8: last digit not reproducible)
+[OK  ] Tab.2   eps=1/32: dref_fin                                   manuscript     9.005e-8   recomputed 9.005e-08      
+[OK  ] Tab.2   eps=1/64: E0                                         manuscript     4.905e-4   recomputed 0.000490546    
+[OK  ] Tab.2   eps=1/64: Ep                                         manuscript     4.119e-6   recomputed 4.11878e-06    
+[OK  ] Tab.2   eps=1/64: E0fin                                      manuscript     4.928e-4   recomputed 0.00049277     
+[OK  ] Tab.2   eps=1/64: Epfin                                      manuscript     6.282e-6   recomputed 6.28195e-06    
+[OK  ] Tab.2   eps=1/64: dref_fl                                    manuscript     9.138e-8   recomputed 9.13769e-08    
+[OK  ] Tab.2   eps=1/64: dref_fin                                   manuscript     9.095e-8   recomputed 9.09456e-08    
+[OK  ] 4.5.2   last mesh change / corrected error, fluid [%]        manuscript       <= 2.3   recomputed 2.219          
+[OK  ] 4.5.2   last mesh change / corrected error, fin [%]          manuscript       <= 1.5   recomputed 1.448          
+[OK  ] 4.5.2   enlarged modes/quadrature: change of errors          manuscript    < 1.5e-09   recomputed 4.763e-14      
+[OK  ] 4.5.2   last-pair order order_0_fl                           manuscript        1.010   recomputed 1.00967        
+[OK  ] 4.5.2   last-pair order order_p_fl                           manuscript        1.971   recomputed 1.97101        
+[OK  ] 4.5.2   last-pair order order_0_fin                          manuscript        1.016   recomputed 1.01593        
+[OK  ] 4.5.2   last-pair order order_p_fin                          manuscript        1.977   recomputed 1.9773         
+[OK  ] Tab.3   eps=1/8: E0                                          manuscript     3.291e-3   recomputed 0.00329127     
+[OK  ] Tab.3   eps=1/8: Ep                                          manuscript     2.707e-3   recomputed 0.00270729     
+[OK  ] Tab.3   eps=1/8: E0fin                                       manuscript     5.741e-3   recomputed 0.00574069     
+[OK  ] Tab.3   eps=1/8: Epfin                                       manuscript     2.400e-3   recomputed 0.00239983     
+[OK  ] Tab.3   eps=1/8: dref_fl                                     manuscript     1.030e-6   recomputed 1.03037e-06    
+[OK  ] Tab.3   eps=1/8: dref_fin                                    manuscript     5.068e-7   recomputed 5.06803e-07    
+[OK  ] Tab.3   eps=1/16: E0                                         manuscript     1.660e-3   recomputed 0.00166043     
+[OK  ] Tab.3   eps=1/16: Ep                                         manuscript     6.717e-4   recomputed 0.000671727    
+[OK  ] Tab.3   eps=1/16: E0fin                                      manuscript     2.415e-3   recomputed 0.00241546     
+[OK  ] Tab.3   eps=1/16: Epfin                                      manuscript     6.496e-4   recomputed 0.000649598    
+[OK  ] Tab.3   eps=1/16: dref_fl                                    manuscript     2.995e-7   recomputed 2.99503e-07    
+[OK  ] Tab.3   eps=1/16: dref_fin                                   manuscript     1.222e-7   recomputed 1.22179e-07    
+[OK  ] Tab.3   eps=1/32: E0                                         manuscript     8.889e-4   recomputed 0.000888885    
+[OK  ] Tab.3   eps=1/32: Ep                                         manuscript     1.678e-4   recomputed 0.000167779    
+[OK  ] Tab.3   eps=1/32: E0fin                                      manuscript     1.090e-3   recomputed 0.00108977     
+[OK  ] Tab.3   eps=1/32: Epfin                                      manuscript     1.674e-4   recomputed 0.00016737     
+[OK  ] Tab.3   eps=1/32: dref_fl                                    manuscript     1.318e-7   recomputed 1.31841e-07    
+[OK  ] Tab.3   eps=1/32: dref_fin                                   manuscript     7.235e-8   recomputed 7.23493e-08    
+[OK  ] Tab.3   eps=1/64: E0                                         manuscript     4.643e-4   recomputed 0.000464329    
+[OK  ] Tab.3   eps=1/64: Ep                                         manuscript     4.200e-5   recomputed 4.19987e-05    
+[OK  ] Tab.3   eps=1/64: E0fin                                      manuscript     5.157e-4   recomputed 0.000515694    
+[OK  ] Tab.3   eps=1/64: Epfin                                      manuscript     4.240e-5   recomputed 4.24026e-05    
+[OK  ] Tab.3   eps=1/64: dref_fl                                    manuscript     9.937e-8   recomputed 9.93696e-08    
+[OK  ] Tab.3   eps=1/64: dref_fin                                   manuscript     8.495e-8   recomputed 8.49543e-08    
+[OK  ] 4.5.3   last mesh change / corrected error, fluid [%]        manuscript      <= 0.24   recomputed 0.2366         
+[OK  ] 4.5.3   last mesh change / corrected error, fin [%]          manuscript      <= 0.20   recomputed 0.2004         (equal to 0.20 after rounding)
+[OK  ] 4.5.3   enlarged modes/quadrature: change of errors          manuscript      < 1e-13   recomputed 4.677e-15      
+[OK  ] 4.5.3   last-pair order order_0_fl                           manuscript        0.937   recomputed 0.936848       
+[OK  ] 4.5.3   last-pair order order_p_fl                           manuscript        1.998   recomputed 1.99814        
+[OK  ] 4.5.3   last-pair order order_0_fin                          manuscript        1.079   recomputed 1.07944        
+[OK  ] 4.5.3   last-pair order order_p_fin                          manuscript        1.981   recomputed 1.98082        
+[OK  ] 4.5.3   a/m = 2 for gamma=13                                 manuscript        holds   recomputed True           
+[OK  ] 4.5.3   a/m = 2 for gamma=100                                manuscript        holds   recomputed True           
+[OK  ] 4.5.3   E0/eps at eps=1/8 (gamma=13)                         manuscript       0.0263   recomputed 0.0263302      
+[OK  ] 4.5.3   E0/eps at eps=1/64 (gamma=13)                        manuscript       0.0297   recomputed 0.0297171      
+[OK  ] 4.5.3   E0/eps increases with decreasing eps (gamma=13)      manuscript        holds   recomputed True           
+[OK  ] 4.5.3   ||theta_1||_L2((0,1)xI)                              manuscript       0.0312   recomputed 0.0311709      
+[OK  ] 4.5.3   Ep/eps^2 at eps=1/8 (gamma=13)                       manuscript        0.173   recomputed 0.173267       
+[OK  ] 4.5.3   Ep/eps^2 at eps=1/16 (gamma=13)                      manuscript        0.172   recomputed 0.171962       
+[OK  ] 4.5.3   Ep/eps^2 at eps=1/32 (gamma=13)                      manuscript        0.172   recomputed 0.171805       
+[OK  ] 4.5.3   Ep/eps^2 at eps=1/64 (gamma=13)                      manuscript        0.172   recomputed 0.172027       
+[OK  ] 4.5.3   Ep/eps^2 at eps=1/64 (gamma=0.4)                     manuscript       0.0169   recomputed 0.0168705      
+[OK  ] 4.5.3   ratio of Ep/eps^2 at 1/64 (gamma=13 : 0.4)           manuscript         10.2   recomputed 10.1969        
+[OK  ] 4.5.3   ratio of 1+gamma                                     manuscript           10   recomputed 10             
+[OK  ] 4.5.3   Ep/((1+g)eps^2) at 1/64, gamma=0.4                   manuscript        0.012   recomputed 0.0120504      
+[OK  ] 4.5.3   Ep/((1+g)eps^2) at 1/64, gamma=13                    manuscript        0.012   recomputed 0.0122876      
+[OK  ] 4.5.3   Ep/((1+g)eps^2) at 1/64, gamma=100                   manuscript        0.014   recomputed 0.0141653      
+[OK  ] 4.5.3   E0 ~ 0.031 eps: limit coefficient ||theta_1||        manuscript        0.031   recomputed 0.0311709      
+[INFO] 4.5.3   (1+g)eps where 0.012(1+g)eps^2 = E0 [(1+g)eps <~ 2.5] manuscript         ~2.5   recomputed 2.561          
+[INFO] 4.5.3   Omega = ((1+g)eps-eps)/2 there, eps->0 / 1/8 [<~ 1.2] manuscript         ~1.2   recomputed 1.281 / 1.218  
+
+Summary: EDGE 2, INFO 2, OK 114, RNDF 1
+
+Unrounded data embedded in the .tex figures vs recomputation (max relative difference):
+  g04   E0        3.4e-09
+  g04   Ep        1.9e-05
+  g04   E0fin     3.4e-09
+  g04   Epfin     1.3e-05
+  g04   dref_fl   2.9e-05
+  g04   dref_fin  3.1e-05
+  g13   Ep        1.8e-06
+  g100  Ep        2.4e-06
+  (Figure 3 coordinates differ by up to ~2e-5: they come from an earlier run of the code; the Figure 6
+   coordinates agree to the stored digits.  Such differences are far below the printed precision except
+   for values lying on a rounding boundary, flagged EDGE above.)
